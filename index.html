@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+	<link href="skin.css" rel="stylesheet">
+</head>
+<body>
+<div id="card" style="padding-left:16px">
+<h5 class="card-header">Welcome to Aetna</h5>
+<div id = "card-body">
+<form class="contact__form" method="" action="">
+<p>Name</p>
+<input name="name" type="text" class="form-control" placeholder="Name" required="">
+<p>Password</p>
+<input name="password" type="text" class="form-control" placeholder="Password" required="">
+</div>
+<form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="6LdorqAUAAAAAG-JeYz_mNTm7FbK0WtPYWodg8Wi"></div>
+      <br/>
+      <input type="submit" value="LogIn">
+</form>
+</form>
+</div>
+<script type="text/javascript">
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+</script>
+    
+</body>
+<html>
