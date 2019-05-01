@@ -1,0 +1,17 @@
+Download and Install NodeJS
+If you haven't installed Node yet, download the latest stable release of NodeJS from https://nodejs.org and install using all the default options.
+
+
+Install the http-server package from npm
+Install the http-server globally on your machine using the node package manager (npm) command line tool, this will allow you to run a web server from anywhere on your computer.
+
+Open a command prompt / command line window and enter the following:
+npm install -g http-server
+
+Start a web server from a directory containing static website files
+Change to the directory containing your static web files (e.g. html, javascript, css etc) in the command line window, e.g:
+cd \projects\angular-registration-login-example
+
+Start the server with this command:
+
+http-server
