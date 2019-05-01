@@ -12,30 +12,31 @@
 	<link href="skin.css" rel="stylesheet">
 </head>
 <body>
-<div id="card" style="padding-left:16px">
-<h5 class="card-header">Welcome to Aetna</h5>
-<div id = "card-body">
-<form class="contact__form" method="" action="">
+<div id="card" style="padding-left:32px; padding-top: 32px;">
+<h5 class="card-header" style = "color: #d939da ; font-size: 221%;  text-align: center;">Welcome to Aetna</h5>
+<div id = "card-body" style= "padding-bottom: 16px;">
+<form class="contact__form" method="POST" action="" style="padding-right:16px">
 <p>Name</p>
 <input name="name" type="text" class="form-control" placeholder="Name" required="">
-<p>Password</p>
+<p style= "margin-top: 10px">Password</p>
 <input name="password" type="text" class="form-control" placeholder="Password" required="">
 </div>
-<form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LdorqAUAAAAAG-JeYz_mNTm7FbK0WtPYWodg8Wi"></div>
-      <br/>
-      <input type="submit" value="LogIn">
-</form>
-</form>
+<div class="g-recaptcha" data-sitekey="6LdorqAUAAAAAG-JeYz_mNTm7FbK0WtPYWodg8Wi"></div>
+<br/>
+<div style = "text-align: center; padding-bottom: 32px;">
+<input type="submit" value="Log In" style = "color: white;     background-color: #d939da;     border-width: 0px;     font-size: 32px;">
 </div>
-<script type="text/javascript">
-  var onloadCallback = function() {
-    alert("grecaptcha is ready!");
-  };
-</script>
+</form>
+<p style= "text-align: center;">
+<a class = "link" style= "color: #d939da; font-size:16px">Forget Username</a>
+<a class = "link" style= "color: #d939da; padding-left: 16px; font-size:16px">Forget Password</a>
+</P>
+<p  style= "text-align: center;">
+<a class = "link" style= "color: #d939da; font-size:16px">Registration</a>
+</P>
+</div>
 <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
         async defer>
 </script>
     
 </body>
-<html>
